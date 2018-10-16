@@ -1,33 +1,13 @@
-// $(document).ready(function() {
-//   $(".clickable").click(function() {
-//     $("#walrus-showing").toggle();
-//     $("#walrus-hidden").toggle();
-//   });
-//
-//   $(".clickable-fade").click(function() {
-//     $("#walrus-fadein").fadeToggle();
-//
-//   });
-//
-//
-// });
-
-// Under is another lesson //
-
 
 $(document).ready(function() {
-  $("button#green").click(function() {
+  $("button#black").click(function() {
     $("body").removeClass();
-    $("body").addClass("green-background");
+    $("body").addClass("black-background");
   });
 
-  $("button#yellow").click(function() {
-    $("body").removeClass();
-    $("body").addClass("yellow-background");
+  $("button#white").click(function() {
+    $("p").removeClass();
+    $("p").addClass("white-text");
   });
 
-  $("button#red").click(function() {
-    $("body").removeClass();
-    $("body").addClass("red-background");
-  });
 });
